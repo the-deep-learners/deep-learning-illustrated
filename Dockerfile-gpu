@@ -1,9 +1,9 @@
-FROM nvidia/cuda:8.0-cudnn5-devel
+FROM nvidia/cuda:9.0-cudnn7-devel
 
 MAINTAINER Jon Krohn <jon@untapt.com>
 
-ENV PATH="/usr/local/cuda-8.0/bin:${PATH}"
-ENV LD_LIBRARY_PATH="/usr/local/cuda-8.0/lib64:${LD_LIBRARY_PATH}"
+ENV PATH="/usr/local/cuda-9.0/bin:${PATH}"
+ENV LD_LIBRARY_PATH="/usr/local/cuda-9.0/lib64:${LD_LIBRARY_PATH}"
 
 
 ## from core/Dockerfile-gpu
