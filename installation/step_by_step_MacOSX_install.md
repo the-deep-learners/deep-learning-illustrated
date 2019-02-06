@@ -13,8 +13,8 @@ These instructions enable you to run TensorFlow code from the comfort of interac
 5. Start Docker, e.g., by using Finder to navigate to your Applications folder and double-clicking on the Docker icon
 6. Back in Terminal, execute `source deep-learning-illustrated/installation/let_jovyan_write.sh` so that you can write to files in the *deep-learning-illustrated* directory from inside the Docker container we'll be creating momentarily 
 7. Move into the *deep-learning-illustrated* directory by executing `cd deep-learning-illustrated`
-8. Build the Docker container by executing `sudo docker build -t tensorflow-ll-stack .` (you'll get an error if you miss the final `.`!)
-9. When that build process has finished, run the Docker container by executing `sudo docker run -v ~/deep-learning-illustrated:/home/jovyan/work -it --rm -p 8888:8888 tensorflow-ll-stack` (if you modified steps two or three above, e.g., by running `git clone` somewhere other than your home `~` directory, then you will need to similarly modify the `~/deep-learning-illustrated` directory location portion of this command)
+8. Build the Docker container by executing `sudo docker build -t dli-stack .` (you'll get an error if you miss the final `.`!)
+9. When that build process has finished, run the Docker container by executing `sudo docker run -v $(pwd):/home/jovyan/work -it --rm -p 8888:8888 dli-stack`
 10. In the web browser of your choice (e.g., Chrome), copy and paste the URL created by Docker (this begins with `http://localhost:8888/?token=` and should be visible near the bottom of your Terminal window) 
 
 ## Shutdown
@@ -33,6 +33,6 @@ You don't need to train your Deep Learning models with a GPU for this course, bu
 1. Install CUDA and cuDNN, e.g., per the **Installing CUDA Toolkit** and **Installing cuDNN** sections of [this blog post](https://hackernoon.com/launch-a-gpu-backed-google-compute-engine-instance-and-setup-tensorflow-keras-and-jupyter-902369ed5272) (this step may be tricky if you're relatively new to working with the Unix command line)
 2. In the `deep-learning-illustrated/installation/docker-stack-scripts` directory:
 	* run `chmod 777 jupyter_notebook_config.py start*.sh`
-3. Replace step eight of my **Install** section above with `sudo docker build -f Dockerfile-gpu -t tfll-gpu-stack .`
-4. Replace step nine with `sudo nvidia-docker run -v ~/deep-learning-illustrated:/home/jovyan/work -it --rm -p 8888:8888 tfll-gpu-stack`
+3. Replace step eight of my **Install** section above with `sudo docker build -f Dockerfile-gpu -t dli-gpu-stack .`
+4. Replace step nine with `sudo nvidia-docker run -v $(pwd):/home/jovyan/work -it --rm -p 8888:8888 dli-gpu-stack`
 
