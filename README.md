@@ -8,5 +8,5 @@ Step-by-step guides for running the code in this repository can be found in the 
 
 ## Book Cover
 
-![](https://github.com/illustrated-series/deep-learning-illustrated/blob/master/img/cover.jpeg)
+![](https://github.com/the-deep-learners/deep-learning-illustrated/blob/master/img/cover.jpeg)
 
