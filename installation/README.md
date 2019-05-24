@@ -1,13 +1,13 @@
 # Installation Instructions
 
-**The easy, on-the-fly way to use the Jupyter notebooks provided in this repository is to load them in [Colab](https://colab.research.google.com/notebooks/welcome.ipynb)**. To make this as straightforward as possible, we've added a link to the top of each notebook so that you can open them in Colab in a single click. *The shortcoming of using Colab is that we can't control or freeze the versions of software libraries it uses by default and so some code may break in the future*. 
+**The easy, on-the-fly way to use the Jupyter notebooks provided in this repository is to load them in [Colab](https://colab.research.google.com/notebooks/welcome.ipynb)**. To make this as simple as possible, we've added a link to the top of each notebook so that you can open them in Colab in a single click. *The shortcoming of using Colab is that we can't control or freeze the versions of software libraries it uses by default and so some code may break in the future*. 
 
 **If you'd like to be 100% sure that the Jupyter notebooks in this repo run as we intended, then follow the installation instructions for the operating system of your choosing below.**
 
 
 ## Mac OS X
 
-Detailed step-by-step instructions for running the code notebooks for these LiveLessons on a Mac [here](https://github.com/the-deep-learners/deep-learning-illustrated/blob/master/installation/step_by_step_MacOSX_install.md).
+Detailed step-by-step instructions for running the code notebooks for on a Mac can be found [here](https://github.com/the-deep-learners/deep-learning-illustrated/blob/master/installation/step_by_step_MacOSX_install.md).
 
 
 ## Unix
@@ -32,5 +32,5 @@ Community members have kindly contributed several different sets of Windows inst
 
 ## GPU Considerations
 
-Most of the examples in these LiveLessons involve relatively small (in Deep Learning terms) data sets so you will be in great shape using your CPU alone for training the models. That said, some of the later notebooks in these LiveLessons will train much more quickly if you employ a GPU. Alternatively, you may enjoy leveraging the efficient, highly-parallelised computations that a GPU affords for your own projects. Whatever the reason, here are TensorFlow GPU instructions for [Mac/Unix](https://github.com/the-deep-learners/deep-learning-illustrated/blob/master/installation/step_by_step_MacOSX_install.md#bonus-training-models-with-an-nvidia-gpu) or [Windows](https://github.com/the-deep-learners/deep-learning-illustrated/blob/master/installation/windows_TF_GPU.md).  
+Most of the examples in this repo involve relatively small (in Deep Learning terms) data sets so you will be in great shape using your CPU alone for training the models. That said, some of the notebook covered later in our book will train much more quickly if you employ a GPU. Alternatively, you may enjoy leveraging the efficient, highly-parallelised computations that a GPU affords for your own projects. Whatever the reason, here are TensorFlow GPU instructions for [Mac/Unix](https://github.com/the-deep-learners/deep-learning-illustrated/blob/master/installation/step_by_step_MacOSX_install.md#bonus-training-models-with-an-nvidia-gpu) or [Windows](https://github.com/the-deep-learners/deep-learning-illustrated/blob/master/installation/windows_TF_GPU.md).  
 
