@@ -1,8 +1,8 @@
 # Installation Instructions
 
-**The easy, on-the-fly way to use the Jupyter notebooks provided in this repository is to load them in [Colab](https://colab.research.google.com/notebooks/welcome.ipynb)**. To make this as simple as possible, we've added a link to the top of each notebook so that you can open them in Colab in a single click. *The shortcoming of using Colab is that we can't control or freeze the versions of software libraries it uses by default and so some code may break in the future*. 
+## Colab
 
-**If you'd like to be 100% sure that the Jupyter notebooks in this repo run as we intended, then follow the installation instructions for the operating system of your choosing below.**
+The easy, on-the-fly way to use the Jupyter notebooks provided in this repository is to load them in [Colab](https://colab.research.google.com/notebooks/welcome.ipynb). The shortcoming of using Colab is that we can't control or freeze the versions of software libraries it uses by default and so some code may break in the future. If you'd like to be 100% sure that the Jupyter notebooks in this repo run as we intended, then follow the installation instructions for the operating system of your choosing below.
 
 
 ## Mac OS X
