@@ -1,4 +1,4 @@
-# Step-by-Step Instructions for Mac OS X
+# Step-by-Step Instructions for macOS
 
 These instructions enable you to run TensorFlow code from the comfort of interactive Jupyter notebooks. Jupyter is itself run from within a Docker container because this ensures that you'll have all of the software dependencies you need while simultaneously preventing these dependencies from clashing with the software you already have installed on your system. 
 
