@@ -8,7 +8,7 @@ The major shortcoming of using Colab is that we can't control or freeze the vers
 **If you'd like to be 100% sure that the Jupyter notebooks in this repo run as we intended, then follow the installation instructions for the operating system of your choosing below.**
 
 
-## Mac OS X
+## macOS
 
 Detailed step-by-step instructions for running the code notebooks for on a Mac can be found [here](https://github.com/the-deep-learners/deep-learning-illustrated/blob/master/installation/step_by_step_MacOSX_install.md).
 
