@@ -180,7 +180,7 @@ Below is the book's table of contents with links to all of the individual notebo
 	* Tokenization
 	* Converting all Characters to Lower Case
 	* Removing Stop Words and Punctuation
-	* Stemming; Handling n-grams
+	* Stemming; Handling *n*-grams
 	* Preprocessing the Full Corpus
 * Creating Word Embeddings with word2vec
 	* The Essential Theory Behind word2vec
@@ -208,7 +208,7 @@ Below is the book's table of contents with links to all of the individual notebo
 #### Chapter 12: Generative Adversarial Networks
 
 * Essential GAN Theory
-* The “Quick, Draw!” Dataset
+* The _Quick, Draw!_ Dataset
 * The Discriminator Network
 * The Generator Network
 * The Adversarial Network
