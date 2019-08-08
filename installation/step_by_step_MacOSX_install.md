@@ -11,10 +11,10 @@ These instructions enable you to run TensorFlow code from the comfort of interac
 3. Retrieve all of the code for this LiveLessons by executing `git clone https://github.com/the-deep-learners/deep-learning-illustrated` (if you haven't used `git` before, you may be prompted to install Xcode -- do it!)
 4. [Install the Docker "Stable channel"](https://docs.docker.com/docker-for-mac/install/) (if you are already using an older version of Docker and run into installation issues downstream, try updating to the latest version of Docker)
 5. Start Docker, e.g., by using Finder to navigate to your Applications folder and double-clicking on the Docker icon
-6. Back in Terminal, execute `source deep-learning-illustrated/installation/let_jovyan_write.sh` so that you can write to files in the *deep-learning-illustrated* directory from inside the Docker container we'll be creating momentarily
+6. Back in Terminal, execute `source deep-learning-illustrated/installation/let_jovyan_write.sh` so that you can write to files in the *deep-learning-illustrated* directory from inside the Docker container we'll be running shortly
 7. Move into the *deep-learning-illustrated* directory by executing `cd deep-learning-illustrated`
-8. Build the Docker container by executing `sudo docker build -t dli-stack .` (you'll get an error if you miss the final `.`!)
-9. When that build process has finished, run the Docker container by executing `sudo docker run -v $(pwd):/home/jovyan/work -it --rm -p 8888:8888 dli-stack`. For your convenience there is a bash script, **rundocker.sh** that executes the same command, so you can simply run `source rundocker.sh`. This command must be executed from the directory where you cloned the repository.
+8. Build the Docker image by executing `sudo docker build -t dli-stack .` -- note that you'll get an error if you miss the final `.` in the command! Also note that instead of building the Docker image, you could alternatively pull the image from Docker Hub with `docker pull jonkrohn/deep-learning-illustrated:book`
+9. When that build process has finished, run the Docker image as a Docker container by executing `sudo docker run -v $(pwd):/home/jovyan/work -it --rm -p 8888:8888 dli-stack` (you can think of the image as a recipe and the container as the cake produced by the recipe). For your convenience there is a bash script, **rundocker.sh** that executes the same command, so you can simply run `source rundocker.sh`. This command must be executed from the directory where you cloned the repository
 10. In the web browser of your choice (e.g., Chrome), copy and paste the URL created by Docker (this begins with `http://localhost:8888/?token=` and should be visible near the bottom of your Terminal window)
 
 ## Shutdown
