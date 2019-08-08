@@ -252,7 +252,7 @@ Below is the book's table of contents with links to all of the individual notebo
 	* Automation of Hyperparameter Search
 * Deep Learning Libraries
 	* Keras and TensorFlow
-	* PyTorch
+	* PyTorch ([pytorch.ipynb](https://github.com/the-deep-learners/deep-learning-illustrated/blob/master/notebooks/pytorch.ipynb))
 	* MXNet, CNTK, Caffe, and Beyond
 * Software 2.0
 * Approaching Artificial General Intelligence
