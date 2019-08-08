@@ -2,7 +2,7 @@
 
 The easy, on-the-fly way to use the Jupyter notebooks provided in this repository is to execute them in [Colab](https://colab.research.google.com/notebooks/welcome.ipynb). 
 To make this as simple as possible, we've included `Open in Colab` buttons at the top of individual notebooks. 
-Click on these buttons and you'll be transported to an environment where you can execute the notebooks instantaneously (and for no charge) in the Google Cloud, including on high-performance hardware like GPUs and TPUs.
+Click on these buttons and you'll be transported to an environment where you can execute the notebooks instantaneously (and for no charge) in the Google Cloud, including on high-performance hardware like GPUs and TPUs (select `Runtime` from the menu bar, `Change runtime type`, and then change `Hardware accelerator` from `None` to `GPU` or `TPU`).
 
 The major shortcoming of using Colab is that we can't control or freeze the versions of software libraries it uses by default and so some code may break in the future (indeed, this is likely).
 **If you'd like to be 100% sure that the Jupyter notebooks in this repo run as we intended, then follow the installation instructions for the operating system of your choosing below.**
@@ -33,7 +33,4 @@ Community members have kindly contributed several different sets of Windows inst
 2. If you've never heard of *Anaconda* as being anything other than a snake, you can follow the simple step-by-step instructions [here](https://github.com/the-deep-learners/deep-learning-illustrated/blob/master/installation/simple_Windows_Anaconda_install.md). 
 3. If you already have Anaconda or a similar Python 3 distribution set up on your machine (e.g., WinPython, Canopy), then you can install TensorFlow in a virtual environment as outlined [here](https://github.com/the-deep-learners/deep-learning-illustrated/blob/master/installation/conda_TensorFlow_install.md).
 
-## GPU Considerations
-
-Most of the examples in this repo involve relatively small (in Deep Learning terms) data sets so you will be in great shape using your CPU alone for training the models. That said, some of the notebook covered later in our book will train much more quickly if you employ a GPU. Alternatively, you may enjoy leveraging the efficient, highly-parallelised computations that a GPU affords for your own projects. Whatever the reason, here are TensorFlow GPU instructions for [Mac/Unix](https://github.com/the-deep-learners/deep-learning-illustrated/blob/master/installation/step_by_step_MacOSX_install.md#bonus-training-models-with-an-nvidia-gpu) or [Windows](https://github.com/the-deep-learners/deep-learning-illustrated/blob/master/installation/windows_TF_GPU.md).  
 
