@@ -14,9 +14,9 @@ USER $NB_USER
 RUN \
 	# Upgrade pip first
 	pip install --upgrade pip==19.0.3 && \
-	# TensorFlow. Note: was 1.0* so this conforms on the MAJOR version. Thus should be backward compatible, except tf.contrib
+	# install TensorFlow library
 	pip install --upgrade https://storage.googleapis.com/tensorflow/linux/cpu/tensorflow-1.8.0-cp36-cp36m-linux_x86_64.whl && \
-	# TFlearn, Keras, PyTorch, Torchvision, NLP libraries and RL environment
+	# install TFlearn, Keras, PyTorch, Torchvision, NLP libraries and RL environment
 	pip install tflearn==0.3.2 \
 				keras==2.2.0 \
 				nltk==3.3 \
