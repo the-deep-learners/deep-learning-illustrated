@@ -1,6 +1,6 @@
 # Deep Learning Illustrated (2019)
 
-This repository is home to the code that accompanies [Jon Krohn](https://www.jonkrohn.com/), [Grant Beyleveld](http://grantbeyleveld.com/about/) and [Aglaé Bassens](https://www.aglaebassens.com/)' book [Deep Learning Illustrated](https://www.deeplearningillustrated.com/). This visual, interactive guide to artificial neural networks was published on Pearson's Addison-Wesley in 2019. 
+This repository is home to the code that accompanies [Jon Krohn](https://www.jonkrohn.com/), [Grant Beyleveld](http://grantbeyleveld.com/about/) and [Aglaé Bassens](https://www.aglaebassens.com/)' book [Deep Learning Illustrated](https://www.deeplearningillustrated.com/). This visual, interactive guide to artificial neural networks was published on Pearson's Addison-Wesley imprint in 2019. 
 
 ## Installation
 
