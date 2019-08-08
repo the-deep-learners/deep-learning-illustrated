@@ -83,7 +83,7 @@ Below is the book's table of contents with links to all of the individual notebo
 * Prerequisites
 * Installation
 * A Shallow Neural Network in Keras ([shallow_net_in_keras.ipynb](https://github.com/the-deep-learners/deep-learning-illustrated/blob/master/notebooks/shallow_net_in_keras.ipynb))
-	* The MNIST Handwritten Digits
+	* The MNIST Handwritten Digits ([mnist_digit_pixel_by_pixel.ipynb](https://github.com/the-deep-learners/deep-learning-illustrated/blob/master/notebooks/mnist_digit_pixel_by_pixel.ipynb))
 	* A Schematic Diagram of the Network
 	* Loading the Data
 	* Reformatting the Data
@@ -120,7 +120,7 @@ Below is the book's table of contents with links to all of the individual notebo
 	* Cross-Entropy Cost ([cross_entropy_cost.ipynb](https://github.com/the-deep-learners/deep-learning-illustrated/blob/master/notebooks/cross_entropy_cost.ipynb))
 * Optimization: Learning to Minimize Cost 
 	* Gradient Descent
-	* Learning Rate
+	* Learning Rate ([measuring_speed_of_learning.ipynb](https://github.com/the-deep-learners/deep-learning-illustrated/blob/master/notebooks/measuring_speed_of_learning.ipynb))
 	* Batch Size and Stochastic Gradient Descent
 	* Escaping the Local Minimum
 * Backpropagation
@@ -242,7 +242,7 @@ Below is the book's table of contents with links to all of the individual notebo
 #### Chapter 14: Moving Forward with Your Own Deep Learning Projects
 
 * Ideas for Deep Learning Projects
-	* Machine Vision and GANs
+	* Machine Vision and GANs ([fashion_mnist_pixel_by_pixel.ipynb](https://github.com/the-deep-learners/deep-learning-illustrated/blob/master/notebooks/fashion_mnist_pixel_by_pixel.ipynb))
 	* Natural Language Processing
 	* Deep Reinforcement Learning
 	* Converting an Existing Machine-Learning Project
@@ -251,7 +251,7 @@ Below is the book's table of contents with links to all of the individual notebo
 * The Modeling Process, including Hyperparameter Tuning 
 	* Automation of Hyperparameter Search
 * Deep Learning Libraries
-	* Keras and TensorFlow
+	* Keras and TensorFlow ([deep_net_in_tensorflow.ipynb](https://github.com/the-deep-learners/deep-learning-illustrated/blob/master/notebooks/deep_net_in_tensorflow.ipynb))
 	* PyTorch ([pytorch.ipynb](https://github.com/the-deep-learners/deep-learning-illustrated/blob/master/notebooks/pytorch.ipynb))
 	* MXNet, CNTK, Caffe, and Beyond
 * Software 2.0
