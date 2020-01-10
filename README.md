@@ -8,7 +8,7 @@ Step-by-step guides for running the code in this repository can be found in the 
 
 ## Notebooks
 
-All of the code covered in the book can be found in [the notebooks directory](https://github.com/the-deep-learners/deep-learning-illustrated/tree/master/notebooks) as [Jupyter notebooks](http://jupyter.org/). 
+All of the code covered in the book can be found in [the notebooks directory](https://github.com/the-deep-learners/deep-learning-illustrated/tree/master/notebooks) as [Jupyter notebooks](http://jupyter.org/). Note that while TensorFlow 2.0 was released after the book had gone to press, as detailed in Chapter 14 (specifically, Example 14.1), all of our notebooks can be trivially converted into TensorFlow 2.x code if desired. 
 
 Below is the book's table of contents with links to all of the individual notebooks: 
 
