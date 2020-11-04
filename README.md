@@ -12,7 +12,7 @@ All of the code covered in the book can be found in [the notebooks directory](ht
 
 Below is the book's table of contents with links to all of the individual notebooks. 
 
-*Note that while TensorFlow 2.0 was released after the book had gone to press, as detailed in Chapter 14 (specifically, Example 14.1), all of our notebooks can be trivially converted into TensorFlow 2.x code if desired.*
+*Note that while TensorFlow 2.0 was released after the book had gone to press, as detailed in Chapter 14 (specifically, Example 14.1), all of our notebooks can be trivially converted into TensorFlow 2.x code if desired. Failing that, TensorFlow 2.x analogs of the notebooks in the current repo are available [here](https://github.com/jonkrohn/DLTFpT).*
 
 ### Part 1: Introducing Deep Learning
 
